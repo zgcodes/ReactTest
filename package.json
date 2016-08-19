@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "测试",
+  "main": "server.js",
+  "dependencies": {
+    "webpack": "2.1.0-beta.21"
+  },
+  "devDependencies": {
+    "npm-install": "0.0.1",
+    "npm-install-webpack-plugin": "^4.0.4"
+  },
+  "scripts": {
+    "test": "测试",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zgcodes/ReactTest.git"
+  },
+  "keywords": [
+    "测试"
+  ],
+  "author": "czg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zgcodes/ReactTest/issues"
+  },
+  "homepage": "https://github.com/zgcodes/ReactTest#readme"
+}

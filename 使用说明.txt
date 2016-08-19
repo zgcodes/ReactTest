@@ -1,0 +1,21 @@
+启用nodejs服务来避免本地文件请求不到js的问题。
+
+{package.json的使用是可选项
+通过 npm init命令来初始化package.json
+
+package.json配置一些当前项目依赖的包
+执行：
+npm install 或npm install --save-dev
+自动将package.json中配置的模块安装到当前项目下node-modules文件夹
+
+如果package.json没配置webpack，可单独安装npm install 包名：
+}
+这里指名安装webpack
+npm install -g webpack 全局安装（会同时创建“空”文件夹node-modules）
+npm install webpack    本地安装（会同时创建“非空”文件夹node-modules）
+
+创建webpack.config.js文件
+
+webpack
+
+
